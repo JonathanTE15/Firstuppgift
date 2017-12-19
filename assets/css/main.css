@@ -130,6 +130,7 @@ h2 {
 }
 .internetmain {
     display: flex;
+    min-height: 80vh;
     background-color: white;
     opacity: 0.85;
     margin: 10px;
@@ -157,17 +158,16 @@ h2 {
     margin: 10px;
 }
 .datornmain {
-    height: 110vh;
+    display: flex;
     background-color: white;
-    opacity: 0.8;
+    opacity: 0.92;
     margin: 10px;
     
 }
 
 .tipsmain {
-    height: 90vh;
     background-color: white;
-    opacity: 0.8;
+    opacity: 0.87;
     margin: 10px;
 }
 
@@ -199,4 +199,112 @@ p {
     margin: 10px;
     width: 100%;
     height: 45vh;
+}
+
+.pic3 {
+    display: inline-block;  
+    background-image: url(../images/dator3.jpg);
+    background-size: cover;
+    height: 60vh;
+    width: 32vw;
+    border: solid 0.5px black;
+    margin: 10px;
+        
+    
+}
+
+.pic4 {
+    display: inline-block;
+    background-image: url(../images/datorn4.jpg);
+    background-size: cover;
+    height:60vh;    
+    width: 32vw;
+    border: solid 0.5px black;
+    margin: 10px;
+}
+
+.textbox3 {
+    font-size: 26px;
+    display: inline-block;
+    margin: 10px;
+    width: 100%;
+    height: 60vh;
+}
+
+.textbox4     {
+    font-size: 26px;
+    display: inline-block;
+    margin: 10px;
+    width: 100%;
+    height: 60vh;
+}
+
+.tipsheader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tipsheadertext {
+    font-size: 60px;
+}
+
+.tipsbox {
+    margin: 10px;
+    height: 32vh;
+}
+
+.tipstext {
+    font-size: 28px;
+}
+
+.quicktip {
+    margin: 10px;
+    height: 23vh;
+}
+
+.finishingtouch {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.advanced {
+    font-size: 24px;
+    margin: 10px;
+    text-decoration: none;
+    color: blue;
+}
+
+.easyread {
+    font-size: 24px;
+    margin: 10px 10px 30px 10px;
+    text-decoration: none;
+    color: blue;
+}
+
+.ordlista {
+    font-size: 24px;
+    margin: 10px;
+    text-decoration: none;
+    color: blue;
+}
+
+.textcontain {
+    width: 100%;
+    font-size: 26px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.advancedtext {
+    font-size: 22px;
+    margin-top:40px;
+}
+
+.advancedcontain {
+    display: block;
 }
